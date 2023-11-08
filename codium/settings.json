@@ -1,0 +1,113 @@
+{
+  "editor.fontFamily": "Source Code Pro",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 24.65,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "expand",
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.glyphMargin": true,
+  "editor.formatOnSave": true,
+  "eslint.run": "onType",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.rulers": [120],
+  "workbench.colorTheme": "Shades of Purple (Super Dark)",
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 5,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/usr/bin/flatpak-spawn",
+      "args": ["--host", "--env=TERM=xterm-256color", "zsh", "-l"]
+    },
+    "go-box": {
+      "path": "/usr/bin/flatpak-spawn",
+      "args": [
+        "--host",
+        "--env=TERM=xterm-256color",
+        "toolbox",
+        "enter",
+        "go-box"
+      ]
+    }
+  },
+  "gopls": {
+    "ui.semanticTokens": true,
+    "formatting.gofumpt": true
+  },
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "golang.go",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yml]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[*]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": -1,
+  "workbench.editor.showTabs": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.renderCharacters": false,
+  "go.testOnSave": true,
+  "go.enableCodeLens": {
+    "runtest": true
+  },
+  "go.testFlags": ["-v"],
+  "go.lintOnSave": "package",
+  "go.vetOnSave": "package",
+  "go.coverOnSave": true,
+  "go.coverMode": "atomic",
+  "go.toolsManagement.autoUpdate": true,
+  "rust-analyzer.checkOnSave": true,
+  "rust-analyzer.completion.autoimport.enable": true,
+  "rust-analyzer.completion.autoself.enable": true,
+  "rust-analyzer.completion.postfix.enable": true,
+  "rust-analyzer.completion.privateEditable.enable": true,
+  "rust-analyzer.cargo.autoreload": true,
+  "rust-analyzer.cargo.buildScripts.enable": true,
+  "rust-analyzer.cachePriming.enable": true,
+  "rust-analyzer.cachePriming.numThreads": 16,
+  "rust-analyzer.numThreads": 16,
+  "editor.formatOnType": true,
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
